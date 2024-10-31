@@ -1,0 +1,41 @@
+componen dalam laravel
+- routes.php
+ - untuk mengatur link yang akan digunakan pada browser
+
+- controllers/Home.php
+ - untuk mengatur cara kerja / mengambil data
+
+- model/User.php
+ - untuk terkoneksi ke database menggunakan model class
+
+- resouces/views/welcome.blade.php
+ - untuk tampilan html yang akan digunakan
+
+perintah terminal
+- jika file laravel berada dalam folder lain:
+ - cd D: (jika file laravel berada dalam data D)
+ - cd E: (jika file laravel berada dalam data E)
+
+- cd folder/web_laravel (nama folder yang berisi file web laravel)
+
+- php artisan serve (untuk menjalankan web laravel)
+
+buka browser, ketik " localhost:8000 " pada kolom link
+
+
+perintah mysql pada cmd:
+
+- nyalakan mysql di xampp
+
+- mysql -u root (untuk masuk sebagai root | admin)
+
+- create database nama_database (untuk membuat database baru)
+
+- use database (untuk menggunakan database. ganti tulisan "database" dengan nama database yang akan digunakan)
+
+- show tables (untuk melihat semua tabel yang ada dalam database)
+
+- create table nama_table(nama_kolom tipe_data primary)  (untuk membuat tabel baru)
+
+
+
